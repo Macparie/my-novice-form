@@ -1,0 +1,36 @@
+/* selector {
+    property: value: 
+}*/
+body {
+  background-image: url(flower.jpg); 
+  background-size: contain; 
+}
+
+fieldset[id] {
+    color: rgb(240, 178, 97);
+      font-style: oblique; cursor: pointer;
+      
+}
+      
+
+
+.sleep{
+    color: rgb(233, 192, 59); ; cursor: pointer;
+}
+.kicks {
+    color: rgb(123, 228, 54); cursor: default;
+}
+.active {
+    color: rgb(177, 235, 130); cursor: vertical-text ;
+}
+
+.info {
+    color: rgb(226, 154, 61); cursor: pointer;
+    display: inline-block;
+}
+.note {
+    color: rgb(123, 228, 54); cursor: default;
+}
+#food {
+    color: rgba(196, 228, 54, 0.815); cursor: default;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Form Assignment</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+<form method="get">
+    
+    <FIeldset>
+        <div class="info">
+        <LEgend>Personal Info</LEgend>
+    <p>
+First Name:	<input type="text" name="First name" placeholder="John" autocomplete="on" required><br><br>
+</p>
+<p>
+ Last Name:	<input type="text" name="Last name" placeholder="Doe" autocomplete="on" required><br><br>
+</p>
+<p>
+  Email Add :	<input type="email" name="Email" placeholder="john123@abin.com" autocomplete="on" required><br><br>
+</p>
+<p>
+  Password: <input type="password" name="Password"  placeholder="Password" autocomplete="on" required><br><br>
+</p>
+<p>
+    Tel No:  <input type="tel" name="Telephone"  placeholder="0801-222-3333" autocomplete="on" required><br><br>
+</p>
+<p>
+    Decade : <input type="number" name="decade"  placeholder="Favourite Decade" id="decade" min="1950" max="2020" step="10" value="1980"><br><br>
+</p>
+<p> Date of Birth	<input type="date"><br><br></p>
+  <p> Gender: <br>
+    <input type="radio" name="Gender" value="Male">Male<br>
+    <input type="radio" name="Gender" value="Female">Female<br>
+    <input type="radio" name="Gender" value="lgbt">Mad People aka LGBTQ<br>
+</p> 
+ 
+<p>
+    <label for="drink">Favourite soft drink</label>
+    <select name="drink" id="drink">
+        <option value="Coca Cola">Coca Cola</option>
+        <option value="Fanta">Fanta</option>
+        <option value="Pepsi">Pepsi</option>
+        <option value="Kunu">Kunu</option>
+        <option value="Cold Sobo">Cold Sobo</option>
+    </select>
+</p> 
+</div> 
+</FIeldset>
+
+<div class="kicks">
+<fieldset>
+    <legend class="active">Favourites shoes</legend>
+<p>
+    <label for="Kicks">Kicks</label>
+    
+    <select id="Kicks">
+        <option value="Adiddas">Adiddas</option>
+        <option value="Air Force ones">Air Force ones</option>
+        <option value="Air Jordan">Air Jordan</option>
+        <option value="Nike Air max">Nike Air max</option>
+    </select>
+</p> 
+<p>
+    <label for="heels">Heels</label>
+    
+    <select id="heels">
+        <option value="peep toes">peep toes</option>
+        <option value="Wedge Heels">wedge Heels</option>
+        <option value=">Louboutins">Louboutins</option>
+        <option value="Strap Heels">Strap Heels</option>
+    </select>
+</p> <p>
+    <label for="Boots">Boots</label>
+    
+    <select id="Boots">
+        <option value="Chelsea boots">Chelsea boots</option>
+        <option value="Chuka boots">Chuka boots</option>
+        <option value="wellington boots">wellington boots</option>
+        <option value="cowboy boots">cowboy boots</option>
+    </select>
+</p> <p>
+    <label for="Sandals">Sandals</label>
+    
+    <select id="Sandals">
+        <option value="Gladiator sandals">Gladiator sandals</option>
+        <option value="wedge sandals">wedge sandals</option>
+        <option value="flip flops">flip flops</option>
+        <option value="Dressy flats">Dressy flats</option>
+    </select>
+</p> 
+</fieldset>
+</div>
+<br>
+<div id="food">
+<fieldset>
+    <legend class="food">Favourite Food</legend>
+    <p>
+
+        <input type="radio" name="FOOD" id="rice" value="jollof rice">
+        <label for="rice">Jollof rice</label> 
+    </p>
+    <p>
+        <input type="radio" name="FOOD" id="beans" value="beans">
+        <label for="beans">Beans</label> 
+    </p>
+    <p>
+        <input type="radio" name="FOOD" id="yam" value="yam and sauce">
+        <label for="yam">yam and sauce</label> 
+    </p>
+    <p>
+        <input type="radio" name="FOOD" id="egusi" value="egusi and eba">
+        <label for="egusi">Egusi and Eba</label> 
+    </p>
+</fieldset>
+</div>
+<fieldset id="pet">
+    <legend>Do you have Pets</legend>
+    <p> Favourite Pets: <br>
+    
+        <input type="checkbox" name="Cat">Cat <br><br>
+        <input type="checkbox"  name="Dog">dog <br><br>
+        <input type="checkbox" name="Pig">Pig <br><br>
+        <input type="checkbox" name="LP">Eluuppp <br><br>
+        <input type="checkbox" name="gold fish">Gold Fish <br><br>
+        <input type="checkbox" name="sponge">Sponge Bob<br><br>
+        <input type="checkbox" name="other">Other<br><br>
+    </p>
+</fieldset>
+<fieldset class="note">
+    <legend>Send Me a Note</legend>
+    <label for="message">Your Message</label>
+    <br><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" class="type"></textarea> 
+</fieldset>
+<br>
+<button type="submit">SUBMIT</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">POST</button>
+<button type="reset">RESET</button>
+
+
+
+
+</form>
+</body>
+</html>
